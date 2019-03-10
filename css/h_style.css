@@ -383,6 +383,31 @@
   }
 }
 
+/*Logo*/
+.h-logo-text {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 25px;
+  right: 7px;
+  font: 400 35px/35px marsha, Dosis;
+  transition: all 0.3s;
+}
+
+.h-logo-text--scroll {
+  top: 19px;
+    right: 7px;
+    font: 400 20px/20px marsha, Dosis;
+}
+
+@media (max-width: 1000px) {
+  .h-logo-text {
+    top: 19px;
+    right: 7px;
+    font: 400 20px/20px marsha, Dosis;
+  }
+}
+
 /*OWL*/
 .owl-pagination {
   bottom: 0;
