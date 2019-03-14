@@ -378,6 +378,11 @@
   }
 }
 
+/*Menu*/
+.gla_parent .active {
+  font-weight: bold;
+}
+
 /*Global class*/
 .h-image-bck {
   background-position: 0 25%;
