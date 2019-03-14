@@ -321,6 +321,13 @@
   }
 }
 
+/*Invitation*/
+@media (max-width: 1000px) {
+  #invitation.gla_section .container {
+    padding: 90px 0;
+  }
+}
+
 /*Carousel*/
 .h-carousel__item {
   width: 100%;
@@ -349,6 +356,26 @@
 
 .gla_top::after {
   content: unset;
+}
+
+.gla_top:focus {
+  outline: none;
+  background-color: #70a076;
+  color: #fff;
+}
+
+.gla_content img {
+  object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+  .gla_top {
+    bottom: 28px !important;
+    right: 5px;
+    padding: 10px;
+    width: unset;
+    height: unset;
+  }
 }
 
 /*Global class*/
