@@ -580,6 +580,7 @@
   /* Anchor Scroll */
   $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
+      $(".h-logo-text").addClass("h-logo-text--scroll");
       $(".gla_logo").addClass("active");
       $("body").addClass("gla_first_step");
     } else {
@@ -590,6 +591,7 @@
       $("body").addClass("gla_second_step");
     } else {
       $("body").removeClass("gla_second_step");
+      $(".h-logo-text").removeClass("h-logo-text--scroll");
     }
   });
 

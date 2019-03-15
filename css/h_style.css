@@ -379,6 +379,10 @@
 }
 
 /*Menu*/
+.gla_parent a {
+  text-decoration: none;
+}
+
 .gla_parent .active {
   font-weight: bold;
 }
