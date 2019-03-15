@@ -58,6 +58,17 @@ $(window).scroll(function() {
       $('.gla_parent .h-link-sm.active').removeClass('active');
       $('.gla_parent .h-link').eq(i).addClass('active');
       $('.gla_parent .h-link-sm').eq(i).addClass('active');
+
+      // Add animation
+      // Infor
+      $('.h-infor__left').removeClass('visibility-hidden');
+      $('.h-infor__right').removeClass('visibility-hidden');
+      $('.h-infor__left').addClass('animated bounceInLeft');
+      $('.h-infor__right').addClass('animated bounceInRight');
+
+       // Infor
+       $('.h-countdown-decor').removeClass('visibility-hidden');
+       $('.h-countdown-decor').addClass('animated fadeInUp');
     } 
   });
 }).scroll();

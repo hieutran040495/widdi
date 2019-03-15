@@ -444,6 +444,20 @@
   }
 }
 
+/*Effect*/
+/* .h-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: transparent;
+  background-image: url('../images/decor/effect-sparkle1.png'),url('../images/decor/effect-sparkle2.png');
+  -webkit-animation: cata-sparkle 60s linear infinite;
+  animation: cata-sparkle 60s linear infinite;
+} */
 /*OWL*/
 .owl-pagination {
   bottom: 0;

@@ -12,6 +12,8 @@
   <link href="fonts/themify-icons.css" rel="stylesheet">
   <link href="css/glanz_style.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+
   <link href="css/h_style.css" rel="stylesheet">
 
   <!--Carousel-->
@@ -138,15 +140,15 @@
       <div class="gla_over" data-color="#1e1d2d" data-opacity="0.6"></div>
       <div class="container">
         <div class="gla_slide_txt gla_slide_center_middle text-center">
-          <p class="h-slider__line-top">
+          <p class="h-slider__line-top animated fadeInDown delay-2s">
             <img src="images/decor/line_bottom.png" alt="">
           </p>
     
-          <h4>My Love For You Is a Journey</h4>
+          <h4 class="animated fadeInDown">My Love For You Is a Journey</h4>
     
-          <h2>We're Married</h2>
+          <h2 class="animated fadeInDown delay-1s">We're Married</h2>
     
-          <p class="h-slider__line-bottom">
+          <p class="h-slider__line-bottom animated fadeInUp delay-2s">
             <img src="images/decor/line_bottom.png" alt="">
           </p>
         </div>
@@ -163,7 +165,7 @@
       <!--Countdown-->
       <section id="invitation" class="gla_section gla_image_bck h-countdown page-section" data-color="#f7f7f7">
         <div class="container text-center">
-          <p class="h-countdown-decor">
+          <p class="h-countdown-decor visibility-hidden">
             <img src="images/decor/green-flower.png" 
               data-bottom-top="@src:images/decor/green-flower.png; opacity:1" 
               class="gla_animated_flower" 
@@ -179,7 +181,8 @@
       <section class="gla_section gla_image_bck h-infor" data-color="#fafafd">
         <div class="container text-center">
           <div class="d-flex h-infor__wrp justify-content-between align-items-center">
-            <div class="h-infor__left h-image-bck" data-h-image="images/wedding/ut_duc/h7.jpg">
+            <div class="h-infor__left h-image-bck visibility-hidden" 
+              data-h-image="images/wedding/ut_duc/h7.jpg">
             </div>
             <div class="h-infor__center">
               <h2>
@@ -188,7 +191,10 @@
                 Duc
               </h2>
             </div>
-            <div class="h-infor__right h-image-bck" data-h-image="images/wedding/ut_duc/h8.jpg">
+            <div class="h-infor__right h-image-bck visibility-hidden" 
+              data-h-image="images/wedding/ut_duc/h8.jpg">
+
+              <!-- <span class="h-effect"></span> -->
             </div>
           </div>
         </div>
