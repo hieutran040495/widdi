@@ -9,3 +9,7 @@
 .mb-2 {
   margin-bottom: 10px;
 }
+
+.visibility-hidden {
+  visibility: hidden;
+}

@@ -54,7 +54,6 @@
   top: 0;
   transition: all 0.4s ease;
   width: 4px;
-  z-index: 1;
 }
 .h-timeline__icon {
   background: #f7f7f7;
@@ -94,12 +93,11 @@
   padding-left: 15px;
 }
 .h-timeline__img, .h-timeline__txt {
-  height: 430px;
+  height: 355px;
   width: 50%;
 }
 .h-timeline__img-wrp {
-  background-position: center;
-  background-size: cover;
+  background-position: center !important;
   height: 100%;
   width: 80%;
 }
@@ -321,6 +319,13 @@
   }
 }
 
+/*Invitation*/
+@media (max-width: 1000px) {
+  #invitation.gla_section .container {
+    padding: 90px 0;
+  }
+}
+
 /*Carousel*/
 .h-carousel__item {
   width: 100%;
@@ -349,6 +354,35 @@
 
 .gla_top::after {
   content: unset;
+}
+
+.gla_top:focus {
+  outline: none;
+  background-color: #70a076;
+  color: #fff;
+}
+
+.gla_content img {
+  object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+  .gla_top {
+    bottom: 28px !important;
+    right: 5px;
+    padding: 10px;
+    width: unset;
+    height: unset;
+  }
+}
+
+/*Menu*/
+.gla_parent a {
+  text-decoration: none;
+}
+
+.gla_parent .active {
+  color: #70a076 !important;
 }
 
 /*Global class*/
@@ -383,6 +417,45 @@
   }
 }
 
+/*Logo*/
+.h-logo-text {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 25px;
+  right: 7px;
+  font: 400 35px/35px marsha, Dosis;
+  transition: all 0.3s;
+}
+
+.h-logo-text--scroll {
+  top: 19px;
+    right: 7px;
+    font: 400 20px/20px marsha, Dosis;
+}
+
+@media (max-width: 1000px) {
+  .h-logo-text {
+    top: 19px;
+    right: 7px;
+    font: 400 20px/20px marsha, Dosis;
+  }
+}
+
+/*Effect*/
+/* .h-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: transparent;
+  background-image: url('../images/decor/effect-sparkle1.png'),url('../images/decor/effect-sparkle2.png');
+  -webkit-animation: cata-sparkle 60s linear infinite;
+  animation: cata-sparkle 60s linear infinite;
+} */
 /*OWL*/
 .owl-pagination {
   bottom: 0;
